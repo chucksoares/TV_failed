@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/img01.jpg");
+    animation: animate 5s steps(10) infinite;
+    
+}
+
+@keyframes animate
+    {
+    0%{
+         background-position:15 0;;
+    }
+    100%{
+  background-position: 50% 100%;
+    }
+}
